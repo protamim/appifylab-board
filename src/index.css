@@ -1,5 +1,5 @@
 /* lato - google font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* tailwindcss directives */
 @tailwind base;
@@ -13,4 +13,27 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.gradient-text {
+  background: #121fcf;
+  background: linear-gradient(to right, #8790ff 0%, #ff3f35 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-bg {
+  background: #121fcf;
+  background: linear-gradient(to right, #8790ff 0%, #ff3f35 100%);
+}
+.gradient-border {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #8790ff 0%, #ff3f35 100%) 1;
+}
+
+.bg-blur {
+  background: #3f2c8d;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
