@@ -1,10 +1,10 @@
-import { star } from "../../assets";
+import { bannerImage, star } from "../../assets";
 
 const Banner = () => {
   return (
     <>
-      <section className="relative pb-8 overflow-hidden bg-[#362385]">
-        <div className="max-w-[1100px] h-[80vh] mx-auto px-4 flex flex-col justify-center items-center gap-y-4 lg:flex-row bg-banner-image bg-no-repeat bg-top bg-cover">
+      <section className="relative overflow-hidden pb-20 bg-[#362385] 2xl:pb-24">
+        <div style={{backgroundImage: `url(${bannerImage})`}} className="max-w-[1100px] h-[80vh] mx-auto px-4 flex flex-col justify-center items-center gap-y-4 lg:flex-row bg-no-repeat bg-top bg-cover">
           {/* left column */}
           <div className="flex flex-col gap-y-8 mr-auto">
             <h2 className="text-5xl font-semibold uppercase leading-relaxed max-w-md">
@@ -51,7 +51,7 @@ const Banner = () => {
           </div>
         </div>
         {/* rotate bar */}
-        <div className="h-20 w-full bg-[#48378d] bg-blur flex items-center gap-x-5 overflow-hidden space-x-10 -rotate-[3deg] mb-20">
+        <div className="h-20 w-full bg-[#48378d] bg-blur flex items-center gap-x-5 overflow-hidden space-x-10 -rotate-[2.5deg] absolute top-[85%] left-0">
           {/* item 1 */}
           <div className="flex items-center gap-x-3 w-full">
             <img src={star} alt="star" />
