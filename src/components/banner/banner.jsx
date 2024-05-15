@@ -3,7 +3,7 @@ import { star } from "../../assets";
 const Banner = () => {
   return (
     <>
-      <section className="relative mb-8 overflow-hidden bg-[#362385]">
+      <section className="relative pb-8 overflow-hidden bg-[#362385]">
         <div className="max-w-[1100px] h-[80vh] mx-auto px-4 flex flex-col justify-center items-center gap-y-4 lg:flex-row bg-banner-image bg-no-repeat bg-top bg-cover">
           {/* left column */}
           <div className="flex flex-col gap-y-8 mr-auto">
