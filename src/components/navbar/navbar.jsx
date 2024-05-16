@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* navigation */}
         <ul
           style={isMenuOpen ? { left: "16px" } : { left: "-140%" }}
-          className="absolute top-full left-4 bg-white text-black p-5 rounded-xl w-60 flex flex-col gap-y-4 transition-all ease-in-out duration-300 md:static md:flex-row md:w-auto md:gap-y-0 md:p-0 md:bg-transparent md:text-white md:gap-x-6"
+          className="absolute z-[30] top-full left-4 bg-white text-black p-5 rounded-xl w-60 flex flex-col gap-y-4 transition-all ease-in-out duration-300 md:static md:flex-row md:w-auto md:gap-y-0 md:p-0 md:bg-transparent md:text-white md:gap-x-6"
         >
           <li>
             <a href="#" className="capitalize transition-all ease-in-out duration-300 hover:opacity-75 md:uppercase">
